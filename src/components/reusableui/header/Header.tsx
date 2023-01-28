@@ -19,7 +19,7 @@ export default function Header() {
   ];
 
   return (
-    <HeaderStyled className="header">
+    <HeaderStyled>
       <div className="logo-container">
         <img src="/Images/logo.svg" alt="logo Kasa" />
       </div>
@@ -51,7 +51,7 @@ const HeaderStyled = styled.div`
   position: relative;
   justify-content: space-between;
   margin-top: 40px;
-  padding: 0px 100px;
+  padding: 0 100px;
   .logo-container img {
     width: 100%;
   }
@@ -68,13 +68,16 @@ const HeaderStyled = styled.div`
       &:visited {
         color: #ff6060;
       }
-      &:hover {
+      :hover {
+        text-decoration: underline;
+      }
+      &.unselected {
+        text-decoration: none;
+      }
+      &.selected {
         text-decoration: underline;
       }
     }
-  }
-  .selected {
-    text-decoration: underline;
   }
 
   @media screen and (max-width: 1024px) {
