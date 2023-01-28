@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Cardprops } from "../../../utils/type";
 
 export default function Card({ id, cover, title }: Cardprops) {
   return (
     <CardStyled
-      href={`logements/${id}`}
+      to={`logements/${id}`}
       className="card"
       style={{ backgroundImage: `url(${cover})`, backgroundSize: "cover" }}
     >
@@ -16,7 +17,7 @@ export default function Card({ id, cover, title }: Cardprops) {
   );
 }
 
-const CardStyled = styled.a`
+const CardStyled = styled(Link)`
   width: 28%;
   min-width: 300px;
   height: 340px;
