@@ -49,7 +49,10 @@ interface LodgingIndoProps {
     }
     rating : string
 }
-
+interface GalleryBtnProps{
+    moveSlide: any
+    direction: string
+}
 type NavProps = {
     label : string
     id : string
@@ -66,5 +69,6 @@ export type {ItemProps,
     RatingProps, 
     SliderProps,
     LodgingIndoProps,
-    ArrNav
+    ArrNav,
+    GalleryBtnProps
 }
