@@ -11,7 +11,7 @@ export default function Rating({ rating }: RatingProps) {
   ]);
 
   useEffect(() => {
-    const ratingStars = parseInt([rating]);
+    const ratingStars = parseInt(`${rating}`);
     const newRate = [...ratingValue];
 
     for (let i = 0; i < ratingStars; i++) {
