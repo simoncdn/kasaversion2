@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { ArrNav } from "../../../utils/type";
 
@@ -23,20 +23,19 @@ export default function Header() {
       <div className="logo-container">
         <img src="/Images/logo.svg" alt="logo Kasa" />
       </div>
-
       <div className="navbar">
         {arrNav.map((item, index) => {
           return (
-            <a
+            <Link
               className={
                 location.pathname === item.path ? "selected" : "unselected"
               }
               key={index}
               id={`${item.id}`}
-              href={`${item.path}`}
+              to={`${item.path}`}
             >
               {item.label}
-            </a>
+            </Link>
           );
         })}
       </div>
@@ -69,9 +68,6 @@ const HeaderStyled = styled.div`
       &:visited {
         color: #ff6060;
       }
-      &:hover {
-        text-decoration: underline;
-      }
       &.unselected {
         text-decoration: none;
       }
@@ -79,22 +75,21 @@ const HeaderStyled = styled.div`
         text-decoration: underline;
       }
     }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   @media screen and (max-width: 1024px) {
-    .header {
-      padding: 0 50px;
-    }
+    padding: 0 50px;
     .navbar a {
       font-size: 20px;
       margin-left: 70px;
     }
   }
   @media screen and (max-width: 768px) {
-    .header {
-      margin-top: 20px;
-      padding: 0 20px;
-    }
+    margin-top: 20px;
+    padding: 0 20px;
     .logo-container img {
       width: 80%;
     }

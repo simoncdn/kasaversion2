@@ -95,15 +95,11 @@ const LodgingInfoStyled = styled.div`
     width: 60px;
     border-radius: 50%;
   }
-  @media screen and (max-width: 1024px) {
-  }
   @media screen and (max-width: 768px) {
-    .lodging-info-container {
-      display: flex;
-      justify-content: space-between;
-      margin: 20px 0px 0px 0px;
-      flex-direction: column;
-    }
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    flex-direction: column;
     .lodging-info-left {
       display: flex;
       flex-direction: column;

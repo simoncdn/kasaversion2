@@ -50,21 +50,18 @@ const BannerStyled = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
-    .banner {
-      height: 200px;
-      margin: 20px 0px;
-      padding: 0 50px;
-    }
-    .banner h2 {
+    height: 200px;
+    margin: 20px 0px;
+    padding: 0 50px;
+    h2 {
       font-size: 36px;
     }
   }
   @media screen and (max-width: 768px) {
-    .banner {
-      height: 120px;
-      padding: 0 20px;
-    }
-    .banner h2 {
+    height: 120px;
+    padding: 0 20px;
+
+    h2 {
       font-size: 24px;
       display: flex;
       flex-wrap: wrap;

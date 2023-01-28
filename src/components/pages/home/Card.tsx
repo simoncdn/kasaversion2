@@ -6,8 +6,7 @@ export default function Card({ id, cover, title }: Cardprops) {
   return (
     <CardStyled
       to={`logements/${id}`}
-      className="card"
-      style={{ backgroundImage: `url(${cover})`, backgroundSize: "cover" }}
+      style={{ backgroundImage: `url(${cover})` }}
     >
       <div className="card-linearGradient"></div>
       <div className="card-title">
@@ -27,8 +26,7 @@ const CardStyled = styled(Link)`
   overflow: hidden;
   position: relative;
   margin: 1.2rem;
-  transition: all 0.4ms;
-
+  background-size: cover;
   .card-linearGradient {
     cursor: pointer;
     width: 100%;
@@ -59,19 +57,15 @@ const CardStyled = styled(Link)`
   }
 
   @media screen and (max-width: 1024px) {
-    .card {
-      width: 40%;
-      min-width: 250px;
-      height: 300px;
-      margin: 15px;
-      transition: all 0.4ms;
-    }
+    width: 40%;
+    min-width: 250px;
+    height: 300px;
+    margin: 15px;
+    transition: all 0.4ms;
   }
   @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
-      height: 310px;
-      margin: 0px 0px 20px 0px;
-    }
+    width: 100%;
+    height: 310px;
+    margin: 0px 0px 20px 0px;
   }
 `;

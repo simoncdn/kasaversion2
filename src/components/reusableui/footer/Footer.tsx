@@ -32,10 +32,9 @@ const FooterStyled = styled.div`
   @media screen and (max-width: 1024px) {
   }
   @media screen and (max-width: 768px) {
-    .footer-container {
-      height: 120px;
-      padding: 30px 0px 20px 0px;
-    }
+    height: 120px;
+    padding: 30px 0px 20px 0px;
+
     .footer-logo img {
       width: 90px;
     }
