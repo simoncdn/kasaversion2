@@ -1,9 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home/Home";
-import About from "./pages/about/About";
-import Lodging from "./pages/lodging/Lodging";
-import Error from "./pages/error/Error";
+import Home from "./components/pages/home/Home";
+import About from "./components/pages/about/About";
+import Lodging from "./components/pages/lodging/Lodging";
+import Error from "./components/pages/error/Error";
 
 function App() {
   return (
