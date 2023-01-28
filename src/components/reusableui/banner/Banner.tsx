@@ -20,7 +20,6 @@ const BannerStyled = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: white;
   margin: 40px 0px;
   padding: 0 100px;
   .background {
@@ -33,13 +32,15 @@ const BannerStyled = styled.div`
     align-items: center;
     overflow: hidden;
     mix-blend-mode: darken;
-    img {
-      opacity: 0.7;
-      position: relative;
-      top: 45%;
-      width: 100%;
-    }
   }
+
+  .background img {
+    opacity: 0.7;
+    position: relative;
+    top: 45%;
+    width: 100%;
+  }
+
   h2 {
     position: absolute;
     color: white;
