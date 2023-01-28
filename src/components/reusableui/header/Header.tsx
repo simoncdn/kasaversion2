@@ -65,10 +65,11 @@ const HeaderStyled = styled.div`
       list-style-type: none;
       font-size: 24px;
       margin-left: 100px;
+      color: #ff6060;
       &:visited {
         color: #ff6060;
       }
-      :hover {
+      &:hover {
         text-decoration: underline;
       }
       &.unselected {
