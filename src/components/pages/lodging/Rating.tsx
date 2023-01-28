@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styled from "styled-components";
 import { RatingProps } from "../../../utils/type";
 
 export default function Rating({ rating }: RatingProps) {
@@ -22,7 +23,7 @@ export default function Rating({ rating }: RatingProps) {
   }, [rating]);
 
   return (
-    <div className="rate-container">
+    <RatingStyled>
       {ratingValue.map((rate, index) => {
         return (
           <svg
@@ -36,6 +37,37 @@ export default function Rating({ rating }: RatingProps) {
           </svg>
         );
       })}
-    </div>
+    </RatingStyled>
   );
 }
+
+const RatingStyled = styled.div`
+  .star {
+    width: 40px;
+    margin-left: 10px;
+  }
+  .star-grey {
+    fill: #e3e3e3;
+    width: 40px;
+    margin-left: 10px;
+  }
+  .star-red {
+    fill: #ff6060;
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+    .star-grey {
+      width: 15px;
+      margin-left: 0px;
+    }
+    .star-red {
+      width: 15px;
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
+`;
