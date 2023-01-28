@@ -2,10 +2,11 @@ import Banner from "../../reusableui/banner/Banner";
 import Header from "../../reusableui/header/Header";
 import Collapse from "../../reusableui/collapse/Collapse";
 import Footer from "../../reusableui/footer/Footer";
+import styled from "styled-components";
 
 export default function About() {
   return (
-    <div className="about-container">
+    <AboutStyled>
       <Header />
       <Banner image={"/Images/bannerImgAbout.png"} title={""} />
       <div className="collapse-bloc">
@@ -27,6 +28,30 @@ export default function About() {
         />
       </div>
       <Footer />
-    </div>
+    </AboutStyled>
   );
 }
+
+const AboutStyled = styled.div`
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .collapse-bloc {
+    width: 80%;
+    flex-grow: 1;
+  }
+  @media screen and (max-width: 1024px) {
+    .collapse-bloc {
+      padding: 0 50px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .collapse-bloc {
+      padding: 0 20px;
+    }
+  }
+`;
