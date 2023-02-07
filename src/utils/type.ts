@@ -16,6 +16,8 @@ interface ItemProps {
   
 type DataProps = ItemProps[]
 
+type toggleProps = boolean
+
 interface BannerProps {
     image : string
     title : string
@@ -30,6 +32,10 @@ interface Cardprops {
     id : string
     cover : string
     title : string
+    rate : string
+    pictures: string[]
+    tags : string[]
+    location: string
 }
 
 interface RatingProps {
@@ -38,6 +44,8 @@ interface RatingProps {
 
 interface SliderProps {
     images : string[]
+    classname : string
+    id: string
 }
 interface LodgingIndoProps {
     title : string
@@ -70,5 +78,6 @@ export type {ItemProps,
     SliderProps,
     LodgingIndoProps,
     ArrNav,
-    GalleryBtnProps
+    GalleryBtnProps,
+    toggleProps
 }

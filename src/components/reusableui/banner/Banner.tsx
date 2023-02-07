@@ -14,30 +14,30 @@ export default function Banner({ image, title }: BannerProps) {
 
 const BannerStyled = styled.div`
   width: 100%;
-  height: 250px;
+  height: 350px;
   border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   margin: 40px 0px;
-  padding: 0 100px;
+  padding: 0 20px;
   .background {
     width: 100%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    mix-blend-mode: darken;
+    /* mix-blend-mode: darken; */
   }
 
   .background img {
-    opacity: 0.7;
+    opacity: 0.9;
     position: relative;
-    top: 45%;
+    top: 65%;
     width: 100%;
   }
 

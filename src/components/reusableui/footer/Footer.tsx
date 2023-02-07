@@ -14,10 +14,10 @@ export default function Footer() {
 const FooterStyled = styled.div`
   width: 100%;
   height: 200px;
-  background-color: black;
+  background-color: #191919;
   padding: 50px 0px 30px 0px;
   text-align: center;
-
+  border-top: 2px solid #ffffff32;
   .footer-logo img {
     filter: brightness(10);
     max-width: 130px;

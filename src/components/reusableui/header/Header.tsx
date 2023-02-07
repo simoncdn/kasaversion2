@@ -50,19 +50,20 @@ const HeaderStyled = styled.div`
   position: relative;
   justify-content: space-between;
   margin-top: 40px;
-  padding: 0 100px;
+  padding: 0 40px;
   .logo-container img {
-    width: 100%;
+    width: 60%;
   }
   .navbar {
     display: flex;
     width: auto;
     justify-content: space-between;
     align-items: center;
+    margin-right: 0px;
     a {
       text-transform: none;
       list-style-type: none;
-      font-size: 24px;
+      font-size: 18px;
       margin-left: 100px;
       color: #ff6060;
       &:visited {

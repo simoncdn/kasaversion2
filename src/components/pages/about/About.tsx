@@ -41,6 +41,7 @@ const AboutStyled = styled.div`
   align-items: center;
 
   .collapse-bloc {
+    min-height: 900px;
     width: 80%;
     flex-grow: 1;
   }

@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #191919;
+  /* background-color: rgb(206, 121, 10); */
+  /* background-color: rgb(255, 255, 255); */
+}
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff73;
+  border: 4px solid #191919;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-track-piece{
+  width: 12px;
+  height: 2px;
+}

@@ -27,7 +27,7 @@ export default function Lodging() {
           .map((item) => {
             return (
               <div key={item.id}>
-                <Gallery images={item.pictures} />
+                {/* <Gallery images={item.pictures} /> */}
 
                 <LodgingInfo
                   title={item.title}
