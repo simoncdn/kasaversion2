@@ -20,7 +20,6 @@ const BannerStyled = styled.div`
   margin-top: 140px;
   margin-bottom: 50px;
   overflow: hidden;
-
   img {
     top: 50%;
     opacity: 0.9;

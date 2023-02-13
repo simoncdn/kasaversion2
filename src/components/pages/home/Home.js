@@ -31,4 +31,5 @@ const HomeStyled = styled.div`
   position: relative;
   align-items: center;
   padding: 0px 50px;
+  padding-bottom: 250px;
 `;

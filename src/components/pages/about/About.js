@@ -39,7 +39,7 @@ const AboutStyled = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0px 50px;
-
+  padding-bottom: 200px;
   .collapse-bloc {
     min-height: 900px;
     width: 80%;
