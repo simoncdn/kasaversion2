@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
 import GlobalContext from "../../../context/GlobalContext";
-import GalleryBtn from "../../lodging/GalleryBtn";
+import GalleryBtn from "./GalleryBtn";
 
 export default function Slider({ images, classname, id, cover, index }) {
   const [isTransitionInProgress, setIsTransitionInProgress] = useState(false);
