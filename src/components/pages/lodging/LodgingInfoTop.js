@@ -37,7 +37,7 @@ const LodgingInfoTopStyled = styled.div`
     h2 {
       color: white;
       font-weight: 400;
-      font-size: 36px;
+      font-size: 30px;
     }
     .tags-container ul {
       margin: 0px 0px;

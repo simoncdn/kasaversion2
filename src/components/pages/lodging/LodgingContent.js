@@ -1,23 +1,24 @@
 import lodgingsData from "../../../data/lodging.json";
 import LodgingInfo from "./LodgingInfo";
-
 import Mosaique from "./Mosaique";
-
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import styled from "styled-components";
-import { Navigate, useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { useEffect } from "react";
+import Booking from "./Booking";
 
 export default function LodgingContent() {
   const { id } = useParams();
   const navigate = useNavigate();
+
   useEffect(() => {
     if (!lodgingsData.find((item) => item.id === id)) {
       return navigate("/error404");
     }
   });
+
   const backToHome = () => {
-    Navigate("/");
+    navigate("/");
   };
   return (
     <LodgingContentStyled>
@@ -47,9 +48,8 @@ export default function LodgingContent() {
                   description={item.description}
                   equipments={item.equipments}
                 />
-                <div className="booking">
-                  <form action=""></form>
-                </div>
+
+                <Booking price={item.price} />
               </div>
             </div>
           );
@@ -93,17 +93,6 @@ const LodgingContentStyled = styled.div`
     margin-top: 40px;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-gap: 10px;
-    .booking {
-      display: flex;
-      justify-content: right;
-      margin-right: 10px;
-      form {
-        background-color: white;
-        border-radius: 15px;
-        width: 80%;
-        height: 300px;
-      }
-    }
+    justify-items: self-end;
   }
 `;

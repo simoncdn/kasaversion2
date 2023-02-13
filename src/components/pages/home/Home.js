@@ -32,6 +32,4 @@ const HomeStyled = styled.div`
   align-items: center;
   padding: 0px 50px;
   padding-bottom: 250px;
-
-  background-color: red;
 `;

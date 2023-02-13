@@ -42,7 +42,7 @@ export default function LoginPanel({ onClick, handleSubmit }) {
             pattern="[a-zA-Z0-9]+"
             minLength="2"
             maxLength="10"
-          ></input>
+          />
           <button>Continuer</button>
         </form>
       </div>

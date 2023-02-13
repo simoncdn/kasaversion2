@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import LodgingInfoBottom from "./LodgingInfoBottom";
 import LodgingInfoTop from "./LodgingInfoTop";
-import Rating from "./Rating";
 
 export default function LodgingInfo({
   location,
