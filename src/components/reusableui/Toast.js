@@ -21,7 +21,9 @@ const ToastContainerStyled = styled(ToastContainer)`
     -webkit-backdrop-filter: blur(9.1px);
     font-size: 20px;
   }
-
+  .Toastify__progress-bar-theme--dark {
+    background-color: #ff6060;
+  }
   .body-toast {
     .Toastify__toast-icon.Toastify--animate-icon.Toastify__zoom-enter {
       margin-right: 14px;
