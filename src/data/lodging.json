@@ -27,11 +27,12 @@
 		"tags": [
 			"Batignolle",
 			"Montmartre"
-		]
+		],
+		"price" : "109€"
 	},
 	{
 		"id": "b9123946",
-		"title": "Magnifique appartement proche Canal Saint Martin",
+		"title": "Appartement Canal Saint Martin",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
@@ -60,11 +61,12 @@
 			"Canal Saint Martin",
 			"République",
 			"Appartement"
-		]
+		],
+		"price" : "133€"
 	},
 	{
 		"id": "46d188c5",
-		"title": "Studio de charme - Buttes Chaumont",
+		"title": "Studio de charme - Chaumont",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
@@ -89,7 +91,8 @@
 			"Buttes Chaumont",
 			"Laumière",
 			"Studio"
-		]
+		],
+		"price" : "119€"
 	},
 	{
 		"id": "7af00cd6",
@@ -120,7 +123,8 @@
 			"Marais",
 			"Parc",
 			"Night Life"
-		]
+		],
+		"price" : "135€"
 	},
 	{
 		"id": "0979876d",
@@ -150,8 +154,9 @@
 		],
 		"tags": [
 			"Goncourt",
-			"Proche commerces"
-		]
+			"Commerces"
+		],
+		"price" : "179€"
 	},
 	{
 		"id": "f72a452f",
@@ -179,7 +184,8 @@
 			"Montmartre",
 			"Culture",
 			"Charme"
-		]
+		],
+		"price" : "228€"
 	},
 	{
 		"id": "b4c67936",
@@ -210,11 +216,12 @@
 			"Transports",
 			"Cheap",
 			"18ème"
-		]
+		],
+		"price" : "74€"
 	},
 	{
 		"id": "bc6f7112",
-		"title": "Superbe appartement proche Tour Eiffel",
+		"title": "Appartement proche Tour Eiffel",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
@@ -244,7 +251,8 @@
 			"Tour Eiffel",
 			"T3",
 			"6ème"
-		]
+		],
+		"price" : "349€"
 	},
 	{
 		"id": "cb2f9222",
@@ -275,7 +283,8 @@
 			"Montparnasse",
 			"Commerces",
 			"Famille"
-		]
+		],
+		"price" : "167€"
 	},
 	{
 		"id": "d60ca600",
@@ -305,9 +314,9 @@
 		"tags": [
 			"Père Lachaise",
 			"11e",
-			"Metro 3",
-			"Metro 2"
-		]
+			"Métros"
+		],
+		"price" : "245€"
 	},
 	{
 		"id": "2cf259e1",
@@ -336,7 +345,8 @@
 			"Marais",
 			"Studio",
 			"Parc"
-		]
+		],
+		"price" : "136€"
 	},
 	{
 		"id": "5323c29b",
@@ -368,7 +378,8 @@
 			"République",
 			"Studio",
 			"Proche Métros"
-		]
+		],
+		"price" : "153€"
 	},
 	{
 		"id": "af6d2d48",
@@ -399,7 +410,8 @@
 			"Forêt",
 			"Nature",
 			"Musée d'Ecouen"
-		]
+		],
+		"price" : "199€"
 	},
 	{
 		"id": "7cbb378e",
@@ -432,8 +444,9 @@
 		"tags": [
 			"Forêt",
 			"Nature",
-			"Grande maison"
-		]
+			"Maison"
+		],
+		"price" : "289€"
 	},
 	{
 		"id": "ba55a0cc",
@@ -469,7 +482,8 @@
 			"Nature",
 			"Groupe",
 			"Maison"
-		]
+		],
+		"price" : "188€"
 	},
 	{
 		"id": "1e181317",
@@ -502,7 +516,8 @@
 			"La Défense",
 			"Loft",
 			"Luxe"
-		]
+		],
+		"price" : "299€"
 	},
 	{
 		"id": "1e180563",
@@ -532,8 +547,9 @@
 		],
 		"tags": [
 			"Vue Parc",
-			"Apt de Charme"
-		]
+			"Charme"
+		],
+		"price" : "136€"
 	},
 	{
 		"id": "2139a317",
@@ -557,7 +573,8 @@
 		"tags": [
 			"Vue Parc",
 			"Métros"
-		]
+		],
+		"price" : "129€"
 	},
 	{
 		"id": "6ff132c6",
@@ -586,7 +603,8 @@
 			"Studio",
 			"Charmant",
 			"13e"
-		]
+		],
+		"price" : "89€"
 	},
 	{
 		"id": "cb02d69b",
@@ -613,6 +631,7 @@
 			"Louvre",
 			"Marais",
 			"Rivoli"
-		]
+		],
+		"price" : "239€"
 	}
 ]
