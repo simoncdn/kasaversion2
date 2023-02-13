@@ -45,14 +45,7 @@ const AboutStyled = styled.div`
     width: 80%;
     flex-grow: 1;
   }
-  @media screen and (max-width: 1024px) {
-    .collapse-bloc {
-      padding: 0 50px;
-    }
-  }
   @media screen and (max-width: 768px) {
-    .collapse-bloc {
-      padding: 0 20px;
-    }
+    padding: 0 20px;
   }
 `;
