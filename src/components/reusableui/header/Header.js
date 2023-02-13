@@ -28,24 +28,11 @@ const HeaderStyled = styled.div`
       width: 50%;
     }
   }
-  /* 
-  @media screen and (max-width: 1024px) {
-    padding: 0 50px;
-    .navbar a {
-      font-size: 20px;
-      margin-left: 70px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0px 25px;
+    a {
+      font-size: 14px;
     }
   }
-  @media screen and (max-width: 768px) {
-    margin-top: 20px;
-    padding: 0 20px;
-    .logo-container img {
-      width: 80%;
-    }
-    .navbar a {
-      width: 50px;
-      font-size: 12px;
-      margin-left: 30px;
-    }
-  } */
 `;

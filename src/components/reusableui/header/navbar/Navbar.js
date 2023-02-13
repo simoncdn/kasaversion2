@@ -79,10 +79,12 @@ export default function Navbar() {
 
 const NavbarStyled = styled.nav`
   display: flex;
-  width: auto;
   justify-content: space-between;
   align-items: center;
   margin-right: 0px;
+  width: 100%;
+  justify-content: end;
+
   a {
     text-transform: none;
     list-style-type: none;
@@ -102,5 +104,15 @@ const NavbarStyled = styled.nav`
   }
   a:hover {
     text-decoration: underline;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    justify-content: end;
+    height: 70px;
+    a {
+      font-size: 12px;
+      margin-left: 20px;
+    }
   }
 `;

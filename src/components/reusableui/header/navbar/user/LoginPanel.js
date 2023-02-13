@@ -158,4 +158,21 @@ const LoginPanelStyled = styled.div`
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .modal-content {
+      top: 30%;
+      width: 340px;
+      .modal-content-title h2 {
+        font-size: 14px;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      input {
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (max-width: 490px) {
+  }
 `;

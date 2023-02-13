@@ -88,8 +88,9 @@ const FilsterStyled = styled.div`
   align-items: center;
   justify-content: left;
   padding: 0px 0px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   width: 100%;
+  flex-wrap: wrap;
   .filter {
     width: auto;
     margin: 0px 0px;
@@ -102,6 +103,8 @@ const FilsterStyled = styled.div`
     background-color: #ffffff32;
     transition: all 400ms ease;
     cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 12px;
     :hover {
       background-color: #ffffff60;
       transition: 400ms ease;
@@ -110,6 +113,15 @@ const FilsterStyled = styled.div`
       background-color: #fff;
       font-weight: 600;
       color: #191919;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+    .filter {
+      font-size: 10px;
+      padding: 6px 12px;
+      margin-right: 10px;
     }
   }
 `;

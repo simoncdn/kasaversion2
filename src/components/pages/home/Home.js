@@ -32,4 +32,8 @@ const HomeStyled = styled.div`
   align-items: center;
   padding: 0px 50px;
   padding-bottom: 250px;
+  @media screen and (max-width: 768px) {
+    padding: 0px 25px;
+    padding-bottom: 250px;
+  }
 `;

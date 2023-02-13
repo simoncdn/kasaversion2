@@ -25,11 +25,9 @@ const CardsStyled = styled.div`
   @media screen and (max-width: 1245px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* /* @media screen and (max-width: 1024px) {
-    width: 40%;
-    min-width: 250px;
-    height: 300px;
-    margin: 15px;
-    transition: all 0.4ms;
-  } */
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0rem;
+    grid-row-gap: 0.5rem;
+  }
 `;

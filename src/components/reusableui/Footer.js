@@ -34,17 +34,15 @@ const FooterStyled = styled.div`
   }
 
   @media screen and (max-width: 1024px) {
+    height: 150px;
+    padding: 30px 0px 30px 0px;
+    .footer-logo img {
+      max-width: 100px;
+    }
+    p {
+      font-size: 14px;
+    }
   }
   @media screen and (max-width: 768px) {
-    height: 120px;
-    padding: 30px 0px 20px 0px;
-
-    .footer-logo img {
-      width: 90px;
-    }
-    .footer-container p {
-      font-size: 12px;
-      margin-top: 10px;
-    }
   }
 `;

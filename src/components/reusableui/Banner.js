@@ -34,4 +34,32 @@ const BannerStyled = styled.div`
     font-size: 48px;
     padding: 30px;
   }
+  @media screen and (max-width: 1250px) {
+    height: 200px;
+    h2 {
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    img {
+      top: 0%;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 490px) {
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    img {
+      top: 10%;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
 `;

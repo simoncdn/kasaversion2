@@ -46,8 +46,6 @@ const UserPillExtensionStyled = styled.div`
   z-index: 0;
   border-radius: 15px;
   padding: 10px 0px;
-  /* box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.2);
-  background-color: #464646; */
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   overflow: hidden;
@@ -82,5 +80,15 @@ const UserPillExtensionStyled = styled.div`
     span {
       font-weight: 600;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 150px;
+    height: 85px;
+    p {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 490px) {
   }
 `;

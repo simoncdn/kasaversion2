@@ -36,7 +36,7 @@ const CardStyled = styled.div`
     margin-bottom: 2px;
   }
 
-  /* @media screen and (max-width: 1350px) {
-    max-width: 370px;
-  } */
+  @media screen and (max-width: 768px) {
+    height: 500px;
+  }
 `;

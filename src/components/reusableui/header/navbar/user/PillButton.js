@@ -24,4 +24,13 @@ const PillButtonStyled = styled.button`
     background-color: #ffffff60;
     transition: all 400ms ease;
   }
+  p {
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 12px;
+    }
+  }
 `;

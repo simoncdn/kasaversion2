@@ -44,4 +44,11 @@ const UserPillStyled = styled.button`
       color: #191919;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
 `;
