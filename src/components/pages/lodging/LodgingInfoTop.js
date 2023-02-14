@@ -77,4 +77,25 @@ const LodgingInfoTopStyled = styled.div`
       }
     }
   }
+  @media screen and (max-width: 1024px) {
+    h2 {
+      font-size: 24px;
+    }
+    .tags-container ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .star-grey {
+      width: 15px;
+      margin-left: 0px;
+    }
+    .star-red {
+      width: 15px;
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
 `;

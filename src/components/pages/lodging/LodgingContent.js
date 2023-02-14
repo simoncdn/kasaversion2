@@ -1,11 +1,11 @@
 import lodgingsData from "../../../data/lodging.json";
 import LodgingInfo from "./LodgingInfo";
-import Mosaique from "./Mosaique";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import styled from "styled-components";
 import { useNavigate, useParams } from "react-router";
 import { useEffect } from "react";
 import Booking from "./Booking";
+import Gallery from "./Gallery";
 
 export default function LodgingContent() {
   const { id } = useParams();
@@ -33,7 +33,7 @@ export default function LodgingContent() {
             <div key={item.id}>
               <h1>{item.title}</h1>
 
-              <Mosaique images={item.pictures} />
+              <Gallery images={item.pictures} />
 
               <div className="info-and-booking">
                 <LodgingInfo
@@ -94,5 +94,17 @@ const LodgingContentStyled = styled.div`
     display: grid;
     grid-template-columns: 60% 40%;
     justify-items: self-end;
+  }
+  @media screen and (max-width: 1024px) {
+    .info-and-booking {
+      grid-template-columns: 1fr;
+      justify-items: start;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin-top: 80px;
   }
 `;

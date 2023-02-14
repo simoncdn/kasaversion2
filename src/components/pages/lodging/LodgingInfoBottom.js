@@ -52,4 +52,17 @@ const LodgingInfoBottomStyled = styled.div`
       color: white;
     }
   }
+  @media screen and (max-width: 1024px) {
+    .equipments,
+    .description {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+  }
 `;

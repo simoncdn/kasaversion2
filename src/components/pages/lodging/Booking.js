@@ -90,4 +90,22 @@ const BookingStyled = styled.form`
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 1024px) {
+    margin-top: 20px;
+    width: 50%;
+    span {
+      font-size: 26px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .booking-input {
+      input,
+      button {
+        font-size: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+  }
 `;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export default function GalleryBtn({ moveSlide, direction }) {
+export default function CarouselBtn({ moveSlide, direction }) {
   return (
     <GalleryBtnStyled
       onClick={moveSlide}

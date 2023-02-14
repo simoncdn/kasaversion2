@@ -27,7 +27,7 @@ export default function Rating({ rating }) {
         return (
           <svg
             key={index}
-            className={rate ? "star-red" : "star-grey"}
+            className={rate ? "star-white" : "star-grey"}
             viewBox="0 0 30 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -41,22 +41,22 @@ export default function Rating({ rating }) {
 }
 
 const RatingStyled = styled.div`
-  .star {
-    width: 40px;
-    margin-left: 10px;
-  }
   .star-grey {
     fill: #636262c5;
-    width: 40px;
+    width: 30px;
     margin-left: 10px;
   }
-  .star-red {
+  .star-white {
     fill: white;
-    width: 40px;
+    width: 30px;
     margin-left: 10px;
   }
 
   @media screen and (max-width: 1024px) {
+    .star-grey,
+    .star-white {
+      width: 20px;
+    }
   }
   @media screen and (max-width: 768px) {
     .star-grey {

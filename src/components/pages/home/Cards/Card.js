@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import CardInfo from "./CardInfo";
-import Gallery from "./Gallery";
+import Carousel from "./Carousel";
 import LikeButton from "../../../reusableui/LikeButton";
 
 export default function Card({ item, index }) {
   return (
     <CardStyled>
-      <Gallery
+      <Carousel
         images={item.pictures}
         classname="gallery"
         id={item.id}

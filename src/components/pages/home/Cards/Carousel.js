@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
 import GlobalContext from "../../../context/GlobalContext";
-import GalleryBtn from "./GalleryBtn";
+import GalleryBtn from "./CarouselBtn";
 
-export default function Slider({ images, classname, id, cover, index }) {
+export default function Carousel({ images, classname, id, cover, index }) {
   const [isTransitionInProgress, setIsTransitionInProgress] = useState(false);
   const [slideIndex, setSlideIndex] = useState(0);
 
